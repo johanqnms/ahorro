@@ -1,0 +1,59 @@
+.user {
+    /* position: relative; */
+    height: 140px;
+    background: #ffffff;
+}
+
+.container-name {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 268px;
+    height: 25px;
+    left: 24px;
+    top: 54px;
+}
+
+.name {
+    position: static;
+    width: 268px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    /* Subtitle 2 */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    /* 75% */
+    color: #58506B;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.notifications {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 310px;
+    top: 54px;
+}
+
+.icon {
+    position: absolute;
+    left: 16.67%;
+    right: 16.67%;
+    top: 9.38%;
+    bottom: 9.38%;
+    /* background: linear-gradient(180deg, rgba(44, 82, 216, 0) 0%, rgba(44, 82, 216, 0.4) 100%), #54D1ED; */
+    background-blend-mode: multiply, normal;
+    background-image: url(../../../assets/notifications_24px.png);
+}
