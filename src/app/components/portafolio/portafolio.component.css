@@ -36,7 +36,7 @@
 }
 
 .texto-boton {
-    font-family: Open Sans;
+    font-family: 'open-sans-regular', Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 10px;
@@ -60,10 +60,170 @@
     width: 327px;
     height: 229px;
     left: 24px;
-    top: 843px;
+    top: 800px;
     /* White */
     background: #FFFFFF;
     /* Card shadow soft */
     box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
     border-radius: 20px;
+}
+
+.circulo-datos {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 20px;
+    top: 20px;
+}
+
+.robot {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 40px;
+    top: 30px;
+    background: url('../../../assets/robot.png');
+}
+
+.titulo-robot {
+    position: absolute;
+    width: 64px;
+    height: 14px;
+    left: 32px;
+    top: 68px;
+    /* Menu 1 */
+    font-family: 'open-sans-regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    /* 50% */
+    color: #817699;
+}
+
+.fondos {
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 32px;
+    top: 82px;
+    /* Caption 1 */
+    font-family: 'open-sans-regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    /* 75% */
+    color: #58506B;
+}
+
+.chart-1 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 61px;
+    top: -6px;
+    /* Success */
+    background-image: url('../../../assets/chart-1.png');
+    background-repeat: no-repeat;
+}
+
+.chart-2 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 95px;
+    top: 12px;
+    /* 75% */
+    background-image: url('../../../assets/chart-2.png');
+    opacity: 0.9;
+    background-repeat: no-repeat;
+}
+
+.chart-3 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 101px;
+    top: 52px;
+    /* 75% */
+    background-image: url('../../../assets/chart-3.png');
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
+.chart-4 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 80px;
+    top: 90px;
+    /* 75% */
+    background-image: url('../../../assets/chart-4.png');
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+.chart-5 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 28px;
+    top: 100px;
+    /* 75% */
+    background-image: url('../../../assets/chart-5.png');
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+.chart-6 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 10px;
+    top: 84px;
+    /* 75% */
+    background-image: url('../../../assets/chart-6.png');
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+.chart-7 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 2px;
+    top: 63px;
+    /* 75% */
+    background-image: url('../../../assets/chart-7.png');
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+
+.parrafo {
+    position: absolute;
+    width: 287px;
+    height: 28px;
+    left: 20px;
+    top: 960px;
+    /* Menu 1 */
+    font-family: 'open-sans-regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    /* 75% */
+    color: #58506B;
 }
