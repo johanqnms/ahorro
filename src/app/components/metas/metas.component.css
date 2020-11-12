@@ -1,9 +1,8 @@
 .metas {
-    background-color: red;
     top: 511px;
     position: absolute;
-    width: 100%;
-    padding:10px;
+    width: 340px;
+    padding: 10px;
 }
 
 .tusmetas {
@@ -53,31 +52,23 @@
 }
 
 .goals-left {
-    background-color: aqua;
     border-radius: 15px;
-    margin:0px 5px 0px 15px;
-    padding: 20px;
+    margin: 0px 5px 0px 15px;
+    padding-left: 30px;
 }
 
 .goals-right {
-    background-color: aqua;
     border-radius: 15px;
-    margin:0px 15px 0px 5px;
+    margin: 0px 15px 0px 5px;
     padding: 5px;
 }
 
-.data {
-    position: static;
-    width: 118px;
-    height: 50px;
-    left: 20px;
-    top: 132px;
-    /* Inside Auto Layout */
-    flex: none;
-    order: 3;
-    align-self: center;
-    flex-grow: 0;
-    margin: 0px 10px;
+.datos {
+    margin-top: 70px;
+}
+
+.datos-right {
+    margin-top: 40px;
 }
 
 .datainfo {
@@ -95,18 +86,23 @@
     letter-spacing: -0.03em;
 }
 
-.goalimg {
-    padding: 10px;
+.img-left {
     width: 40px;
     height: 40px;
-    left: 10px;
     top: 10px;
     background: url('../../../assets/IMG.png');
 }
 
+.img-right {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    background: url('../../../assets/right.png');
+}
+
 .viaje {
     position: absolute;
-    left: 20px;
     /* Normal 2 */
     font-family: 'open-sans-regular', Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
@@ -125,6 +121,7 @@
     order: 1;
     align-self: center;
     flex-grow: 0;
+    margin-top: 10px;
 }
 
 .vector {
@@ -173,11 +170,57 @@
     margin: 0px 10px;
 }
 
-.img-right {
+
+
+.chart-data {
     position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 0px;
-    top: 0px;
-    background: url('../../../assets/right.png');
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-image: url('../../../assets/chart.png');
+    background-repeat: no-repeat;
+}
+
+.percent {
+    position: absolute;
+    width: 118px;
+    height: 50px;
+    left: 25px;
+    top: 12px;
+    color: #54D1ED;
+}
+
+.value1 {
+    font-family: 'open-sans-regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+    color: #54D1ED;
+}
+
+.value2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+    /* 50% */
+    color: #817699;
+}
+
+.macbook {
+    position: relative;
+    font-family: 'open-sans-regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    top: 10px;
+    left: 20px;
+    /* 50% */
+    color: #817699;
+
 }
