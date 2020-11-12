@@ -129,6 +129,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ahorro"
+    }
+  },
+  "defaultProject": "ahorro",
+  "cli": {
+    "analytics": false
+  }
 }
