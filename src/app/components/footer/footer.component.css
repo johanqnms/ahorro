@@ -1,0 +1,267 @@
+.menu-footer {
+    position: absolute;
+    width: 327px;
+    height: 85px;
+    left: calc(50% - 327px/2);
+    bottom: 54px;
+    top: 1720px;
+}
+
+.invest {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 139px;
+    top: 0px;
+    background-image: url('../../../assets/elipse.png');
+    background-repeat: no-repeat;
+}
+
+.plus {
+    position: absolute;
+    left: 30%;
+    right: 20.83%;
+    top: 30%;
+    bottom: 20.83%;
+    /* Background */
+    background-image: url('../../../assets/plus.png');
+    background-repeat: no-repeat;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 293px;
+    height: 41px;
+    left: 17px;
+    top: 35px;
+}
+
+.inicio {
+    position: static;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 27px;
+    /* Menu 1 */
+    font-family: 'open-sans-regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 3px;
+    background-image: url('../../../assets/homeicon.png');
+    background-repeat: no-repeat;
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 37px;
+    height: 41px;
+    left: 74px;
+    top: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    margin: 2px 0px;
+    background-image: url('../../../assets/historyicon.png');
+    background-repeat: no-repeat;
+}
+
+.inicio-texto {
+    position: absolute;
+    width: 37px;
+    height: 14px;
+    left: 0px;
+    top: 28px;
+    /* Menu 1 */
+    font-family: 'open-sans-regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 3px;
+}
+
+.historial-texto {
+    position: absolute;
+    width: 37px;
+    height: 14px;
+    top: 28px;
+    left: -10px;
+    /* Menu 1 */
+    font-family: 'open-sans-regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    /* 25% */
+    color: #A99DC6;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 3px;
+}
+
+.ahorrar {
+    position: absolute;
+    width: 37px;
+    height: 14px;
+    left: 10px;
+    top: 38px;
+    /* Menu 1 */
+    font-family: 'open-sans-regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    /* 25% */
+    color: #A99DC6;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    align-self: flex-end;
+    flex-grow: 0;
+    margin: 27px 0px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 37px;
+    height: 41px;
+    left: 205px;
+    top: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 3;
+    align-self: center;
+    flex-grow: 0;
+    background-image: url('../../../assets/perfilicon.png');
+    background-repeat: no-repeat;
+}
+
+.profile-texto {
+    position: absolute;
+    width: 37px;
+    height: 14px;
+    left: -10px;
+    top: 32px;
+    /* Menu 1 */
+    font-family: 'open-sans-regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    /* 25% */
+    color: #A99DC6;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 3px;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 37px;
+    height: 41px;
+    left: 265px;
+    top: 10px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 4;
+    align-self: center;
+    flex-grow: 0;
+    background-image: url('../../../assets/dotsicon.png');
+    background-repeat: no-repeat;
+}
+
+.more-texto {
+    position: absolute;
+    width: 37px;
+    height: 14px;
+    left: -2px;
+    top: 20px;
+    /* Menu 1 */
+    font-family: 'open-sans-regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    /* 25% */
+    color: #A99DC6;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 3px;
+}
+
+.space {
+    position: absolute;
+    height: 30px;
+    margin-top:30px;
+    top: 1900px;
+    background-color: yellow;
+}
